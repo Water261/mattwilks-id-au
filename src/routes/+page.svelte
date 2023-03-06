@@ -6,7 +6,7 @@
 		</div>
 	</div>
 </section>
-<p>Photo by Eberhard Grossgasteiger</p>
+<p class="mt-1">Photo by Eberhard Grossgasteiger</p>
 <section id="about" class="section is-small">
 	<h2 class="title is-size-2">About Me</h2>
 	<p>
