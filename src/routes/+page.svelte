@@ -1,4 +1,4 @@
-<section class="hero is-fullheight-with-navbar hero-background">
+<section class="hero is-fullheight hero-background">
 	<div class="hero-body is-flex is-justify-content-center is-align-items-start mt-6">
 		<div>
 			<h1 class="is-size-1 title">Matthew Wilks</h1>
