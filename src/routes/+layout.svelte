@@ -21,18 +21,18 @@
 				<h1>Matthew Wilks</h1>
 			</a>
 			<button
-				class={`navbar-burger ${navbarState ? 'is-active' : ''}`}
+				class={`navbar-burger ${$navbarState ? 'is-active' : ''}`}
 				aria-label="menu"
 				aria-expanded="false"
 				data-target="navbarMenu"
-				on:click={() => ($navbarState = !navbarState)}
+				on:click={() => ($navbarState = !$navbarState)}
 			>
 				<span aria-hidden="true" />
 				<span aria-hidden="true" />
 				<span aria-hidden="true" />
 			</button>
 		</div>
-		<div id="navbarMenu" class={`navbar-menu ${navbarState ? 'is-active' : ''}`}>
+		<div id="navbarMenu" class={`navbar-menu ${$navbarState ? 'is-active' : ''}`}>
 			<div class="navbar-end">
 				<a href="#about" class="navbar-item">About Me</a>
 				<a href="#projects" class="navbar-item">My Projects</a>
