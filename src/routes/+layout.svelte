@@ -14,10 +14,11 @@
 	/>
 </svelte:head>
 
-<div id="wrapper">
-	<nav class="navbar">
+<div id="wrapper" class="has-navbar-fixed-top">
+	<nav class="navbar is-fixed-top">
 		<div class="navbar-brand">
-			<a href="/" class="navbar-item">
+			<!-- svelte-ignore a11y-invalid-attribute -->
+			<a href="#" class="navbar-item">
 				<h1>Matthew Wilks</h1>
 			</a>
 			<button
