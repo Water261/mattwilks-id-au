@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
+	import "../app.css";
 
 	const navbarState = writable(false);
 </script>
@@ -15,30 +16,15 @@
 </svelte:head>
 
 <div id="wrapper" class="has-navbar-fixed-top">
-	<nav class="navbar is-fixed-top">
-		<div class="navbar-brand">
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="navbar-item">
-				<h1>Matthew Wilks</h1>
-			</a>
-			<button
-				class={`navbar-burger ${$navbarState ? 'is-active' : ''}`}
-				aria-label="menu"
-				aria-expanded="false"
-				data-target="navbarMenu"
-				on:click={() => ($navbarState = !$navbarState)}
-			>
-				<span aria-hidden="true" />
-				<span aria-hidden="true" />
-				<span aria-hidden="true" />
-			</button>
+	<nav class="navbar bg-base-100">
+		<div class="flex-1">
+			<a href="/" class="btn btn-ghost normal-case text-xl">Matthew Wilks</a>
 		</div>
-		<div id="navbarMenu" class={`navbar-menu ${$navbarState ? 'is-active' : ''}`}>
-			<div class="navbar-end">
-				<a href="#about" class="navbar-item">About Me</a>
-				<a href="#projects" class="navbar-item">My Projects</a>
-				<a href="#contact" class="navbar-item">Contact Me</a>
-			</div>
+		<div class="flex-none">
+			<ul class="menu menu-horizontal px-1">
+				<li><a href="/about">About Me</a></li>
+				<li><a href="/projects">Projects</a></li>
+			</ul>
 		</div>
 	</nav>
 	<main class="has-text-centered">
@@ -73,9 +59,7 @@
 	</footer>
 </div>
 
-<style lang="scss">
-	@import '../../node_modules/bulma/bulma.sass';
-
+<style lang="postcss">
 	div#wrapper {
 		font-family: 'Roboto', sans-serif;
 	}
