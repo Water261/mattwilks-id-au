@@ -4,6 +4,10 @@
 		<div class="max-w-md">
 			<h1 class="mb-5 text-5xl font-bold">Matthew Wilks</h1>
 			<p class="mb-5">Hey I'm Matthew Wilks and this is my Portfolio</p>
+			<div class="btn-group">
+				<a href="/about" class="btn btn-primary">About Me</a>
+				<a href="/projects" class="btn btn-primary">My Projects</a>
+			</div>
 		</div>
 	</div>
 </div>
