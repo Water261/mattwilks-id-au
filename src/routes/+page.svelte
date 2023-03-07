@@ -1,30 +1,9 @@
-<section class="hero is-fullheight hero-background">
-	<div class="hero-body is-flex is-justify-content-center is-align-items-start mt-6">
-		<div>
-			<h1 class="is-size-1 title">Matthew Wilks</h1>
-			<h3 class="is-size-3 subtitle">A hobby developer</h3>
+<div class="hero min-h-screen" style="background-image: url('/img/hero-background.jpg');">
+	<div class="hero-overlay bg-opacity-60" />
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md">
+			<h1 class="mb-5 text-5xl font-bold">Matthew Wilks</h1>
+			<p class="mb-5">Hey I'm Matthew Wilks and this is my Portfolio</p>
 		</div>
 	</div>
-</section>
-<p class="mt-1">Photo by Eberhard Grossgasteiger</p>
-<section id="about" class="section is-small">
-	<h2 class="title is-size-2">About Me</h2>
-	<p>
-		Hi there! I&apos;m Matthew, a hobby developer who&apos;s interested in Rust, C# &amp;
-		Typescript.
-	</p>
-</section>
-<section id="projects" class="section is-small">
-	<h2 class="title is-size-2">Projects</h2>
-</section>
-<section id="contact" class="section is-small">
-	<h2 class="title is-size-2">Contact Me</h2>
-</section>
-
-<style lang="postcss">
-	.hero-background {
-		background-image: url('/img/hero-background.jpg');
-		background-size: cover;
-		background-position: center;
-	}
-</style>
+</div>
