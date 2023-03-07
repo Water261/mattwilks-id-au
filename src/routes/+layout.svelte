@@ -12,8 +12,8 @@
 	/>
 </svelte:head>
 
-<div id="wrapper" class="has-navbar-fixed-top">
-	<nav class="navbar bg-base-100">
+<div id="wrapper">
+	<nav class="navbar bg-base-100 fixed">
 		<div class="flex-1">
 			<a href="/" class="btn btn-ghost normal-case text-xl">Matthew Wilks</a>
 		</div>
@@ -24,12 +24,12 @@
 			</ul>
 		</div>
 	</nav>
-	<main class="has-text-centered">
+	<main class="text-center">
 		<slot />
 	</main>
-	<footer class="footer has-text-centered">
-		<p>
-			<span>&copy; 2023 - Matthew Wilks. Licensed under </span>
+	<footer class="footer text-center flex justify-center">
+		<p class="block">
+			&copy; 2023 - Matthew Wilks. Licensed under 
 			<a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>
 		</p>
 	</footer>
