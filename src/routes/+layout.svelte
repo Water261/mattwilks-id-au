@@ -27,10 +27,10 @@
 	<main class="text-center">
 		<slot />
 	</main>
-	<footer class="footer text-center flex justify-center">
+	<footer class="footer text-center flex justify-center py-4">
 		<p class="block">
-			&copy; 2023 - Matthew Wilks. Licensed under 
-			<a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>
+			&copy; {new Date().getFullYear()} - Matthew Wilks. Licensed under 
+			<a href="https://creativecommons.org/licenses/by-nd/4.0/" class="link link-info link-hover">CC BY-ND 4.0</a>
 		</p>
 	</footer>
 </div>
