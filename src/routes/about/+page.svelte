@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ShowContent from '../../showContent.svelte';
+	import ShowContent from '$lib/showContent.svelte';
 </script>
 
 <svelte:head>
