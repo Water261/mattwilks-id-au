@@ -2,7 +2,7 @@
 	<title>Home - Matthew Wilks</title>
 </svelte:head>
 
-<div class="hero min-h-screen" style="background-image: url('/img/hero-background.jpg');">
+<div class="hero h-[87vh]" style="background-image: url('/img/hero-background.jpg');">
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
