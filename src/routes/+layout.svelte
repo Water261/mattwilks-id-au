@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div id="wrapper">
-	<nav class="navbar bg-base-100 sticky">
+	<nav class="navbar bg-base-100 sticky drop-shadow">
 		<div class="flex-1">
 			<a href="/" class="btn btn-ghost normal-case text-xl">Matthew Wilks</a>
 		</div>
