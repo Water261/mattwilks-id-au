@@ -27,7 +27,7 @@
 	<main class="text-center">
 		<slot />
 	</main>
-	<footer class="footer text-center flex justify-center py-4 fixed bottom-0 bg-base-100">
+	<footer class="footer text-center flex justify-center py-4 bg-base-100">
 		<p class="block">
 			&copy; {new Date().getFullYear()} - Matthew Wilks. Licensed under 
 			<a href="https://creativecommons.org/licenses/by-nd/4.0/" class="link link-info link-hover">CC BY-ND 4.0</a>
