@@ -20,7 +20,7 @@
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
 				<li><a href="/about">About Me</a></li>
-				<li><a href="/projects">Projects</a></li>
+				<li><a href="/projects">My Projects</a></li>
 			</ul>
 		</div>
 	</nav>
