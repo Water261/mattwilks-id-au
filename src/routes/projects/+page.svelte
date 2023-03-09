@@ -26,3 +26,9 @@
 	projectImgPath="/img/phaser-logo.png"
 	projectLink="https://github.com/Water261/tetris-clone"
 />
+<ProjectCard
+	projectName="mattwilks-id-au"
+	projectDesc="This is the repository for my portfolio, which is what you're seeing now. If you've got any queries or contributions feel free to open an issue."
+	projectImgPath="/img/portfolio-logo.png"
+	projectLink="https://github.com/Water261/mattwilks-id-au"
+/>
