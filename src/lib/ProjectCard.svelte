@@ -20,9 +20,9 @@
 			{projectDesc}
 		</p>
 		<div class="h-1/4">
-			<a href={projectLink} target="_blank" rel="noreferrer" class="btn btn-primary"
-				>Visit Project</a
-			>
-		</div>	
+			<a href={projectLink} target="_blank" rel="noreferrer" class="btn btn-primary">
+				Visit Project
+			</a>
+		</div>
 	</div>
 </div>
