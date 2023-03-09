@@ -11,7 +11,7 @@
 	<div class="p-4 flex flex-col gap-4">
 		<div class="h-1/4">
 			<h1 class="text-3xl text-bold">{projectName}</h1>
-			<a href={projectLink} class="link-info">
+			<a href={projectLink} target="_blank" rel="noreferrer" class="link-info">
 				{projectLinkNoProto}
 				<i class="fa-solid fa-arrow-up-right-from-square fa-2xs relative bottom-1" />
 			</a>
