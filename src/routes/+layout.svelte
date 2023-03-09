@@ -24,11 +24,11 @@
 			</ul>
 		</div>
 	</nav>
-	<main class="text-center mb-[3.25rem] min-h-full">
+	<main class="text-center min-h-full">
 		<slot />
 	</main>
 	<footer
-		class="footer text-center flex justify-center py-4 bg-base-100 h-[3.25rem] absolute bottom-0 left-0"
+		class="footer text-center flex justify-center py-4 bg-base-100 h-[3.25rem]"
 	>
 		<p class="block">
 			&copy; {new Date().getFullYear()} - Matthew Wilks. Licensed under
