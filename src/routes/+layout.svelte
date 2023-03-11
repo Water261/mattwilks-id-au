@@ -13,17 +13,28 @@
 </svelte:head>
 
 <div id="wrapper">
-	<nav class="navbar bg-base-100 sticky drop-shadow">
-		<div class="flex-1">
+	<div class="navbar bg-base-100">
+		<div class="navbar-start">
 			<a href="/" class="btn btn-ghost normal-case text-xl">Matthew Wilks</a>
 		</div>
-		<div class="flex-none">
-			<ul class="menu menu-horizontal px-1">
+		<div class="navbar-end">
+			<ul class="menu menu-horizontal px-1 hidden lg:flex">
 				<li><a href="/about">About Me</a></li>
 				<li><a href="/projects">My Projects</a></li>
 			</ul>
+			<div class="dropdown dropdown-end">
+				<button class="btn btn-ghost lg:hidden">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<ul
+					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-32"
+				>
+					<li><a href="/about">About Me</a></li>
+					<li><a href="/projects">My Projects</a></li>
+				</ul>
+			</div>
 		</div>
-	</nav>
+	</div>
 	<main class="text-center min-h-full">
 		<slot />
 	</main>
