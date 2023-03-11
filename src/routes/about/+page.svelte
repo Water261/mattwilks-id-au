@@ -4,11 +4,6 @@
 
 <div class="hero h-[87vh]">
 	<div class="hero-content flex-col lg:flex-row">
-		<img
-			src="https://placehold.co/400x600?font=roboto"
-			alt=""
-			class="max-w-sm rounded-lg shadow-lg"
-		/>
 		<div class="lg:w-[40rem]">
 			<h1 class="text-4xl font-bold">About Me</h1>
 			<p class="p-6">
