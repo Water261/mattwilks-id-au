@@ -43,7 +43,7 @@
 		</div>
 	</div>
 {:else}
-	<div class="card w-96 bg-base-100 shadow-xl my-4 m-auto">
+	<div class="card max-w-[21rem] bg-base-100 shadow-xl my-4 m-auto">
 		<figure><img src={projectImgPath} alt={`${projectName} Logo`} /></figure>
 		<div class="card-body">
 			<h2 class="card-title justify-center">{projectName}</h2>
