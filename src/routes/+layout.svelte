@@ -23,7 +23,7 @@
 				<li><a href="/projects">My Projects</a></li>
 			</ul>
 			<div class="dropdown dropdown-end">
-				<button class="btn btn-ghost lg:hidden">
+				<button tabindex="0" class="btn btn-ghost lg:hidden">
 					<i class="fa-solid fa-bars"></i>
 				</button>
 				<ul
