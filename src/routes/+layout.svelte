@@ -22,11 +22,15 @@
 				<li><a href="/about">About Me</a></li>
 				<li><a href="/projects">My Projects</a></li>
 			</ul>
+			<!-- svelte-ignore a11y-label-has-associated-control -->
 			<div class="dropdown dropdown-end">
-				<button tabindex="0" class="btn btn-ghost lg:hidden">
+				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+				<label tabindex="0" class="btn btn-ghost lg:hidden">
 					<i class="fa-solid fa-bars"></i>
-				</button>
+				</label>
+				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<ul
+					tabindex="0"
 					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-32"
 				>
 					<li><a href="/about">About Me</a></li>
