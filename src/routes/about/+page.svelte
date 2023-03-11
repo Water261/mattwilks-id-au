@@ -11,7 +11,7 @@
 				projects include a Tetris clone using Phaser, this portfolio and a Security Support Provider
 				& Authentication Package for kanidm.
 			</p>
-			<a href="/projects" class="btn btn-primary gap-2 min-w-[7.5rem]">
+			<a href="/projects" class="btn btn-primary gap-2 flex w-40 m-auto">
 				<p>My Projects</p>
 				<i class="fa-solid fa-arrow-right fa-xl" />
 			</a>
